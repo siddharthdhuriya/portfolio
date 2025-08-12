@@ -231,7 +231,7 @@ function App() {
                 {/* Profile Image */}
                 <div className="relative w-80 h-96 rounded-3xl overflow-hidden border-4 border-white/20 shadow-2xl hover:scale-105 transition-all duration-500">
                   <img 
-                    src="/public/FB_IMG_1696354168015.jpg" 
+                    src="FB_IMG_1696354168015.jpg" 
                     alt="Siddharth Dhuriya - Product Manager" 
                     className="w-full h-full object-cover"
                   />
