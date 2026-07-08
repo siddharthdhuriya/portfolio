@@ -117,6 +117,30 @@ main { position: relative; z-index: 1; }
 }
 .nav-cta:hover { border-color: var(--amber); background: rgba(245, 165, 36, 0.08); }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-shrink: 0;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  color: var(--muted);
+  border-radius: 50%;
+  transition: color 0.25s, background 0.25s, transform 0.25s;
+}
+.social-link svg { width: 19px; height: 19px; }
+.social-link:hover {
+  color: var(--amber);
+  background: rgba(245, 165, 36, 0.1);
+  transform: translateY(-2px);
+}
+
 @media (max-width: 720px) {
   .site-nav { display: none; }
 }
