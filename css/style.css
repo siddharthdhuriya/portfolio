@@ -703,6 +703,9 @@ main { position: relative; z-index: 1; }
 a.project-link:hover { background: rgba(245, 165, 36, 0.12); transform: translateY(-2px); }
 .project-link-here { color: var(--teal); border-color: rgba(53, 208, 186, 0.4); }
 
+.project-actions { display: flex; flex-direction: column; gap: 0.7rem; align-items: stretch; text-align: center; }
+.project-actions .project-link { justify-content: center; }
+
 .project-card-featured {
   border-color: rgba(245, 165, 36, 0.5);
   background:
@@ -732,6 +735,7 @@ a.project-link:hover { background: rgba(245, 165, 36, 0.12); transform: translat
   .project-card { grid-template-columns: 1fr; }
   .project-num { justify-self: start; }
   .project-link { justify-self: start; }
+  .project-actions { flex-direction: row; flex-wrap: wrap; justify-self: start; }
 }
 
 /* ---------- education ---------- */
